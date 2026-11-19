@@ -30,23 +30,7 @@ Within each product category (`Ready-to-Wear`, `Handbags`, `Shoes`, `Jewelry`), 
 
 * **Exact Size & Discovery Ranking**: Filters backroom RFID stock strictly to the client's verified size and surfaces **new unowned style codes first** ahead of archive replenishment pieces.
 
-## 2. Quick Start
-
-```
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-
-# Verify the edge backend and regenerate synced CSVs + edge_live_state.json
-python appy.py
-
-# Launch the Sales Associate Clienteling UI
-streamlit run Sales_Associate_UI.py
-
-```
-
-## 3. Repository Structure
+## 2. Repository Structure
 
 ```text
 Silent-Concierge/
