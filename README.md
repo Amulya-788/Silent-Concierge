@@ -44,3 +44,4 @@ Silent-Concierge/
     ├── local_rfid_inventory.csv    # Table 3: Bengaluru Backroom RFID Stock (60 physical units)
     └── edge_live_state.json        # Auto-generated at runtime on scan (do not edit manually)
 ```
+GMRUTV
